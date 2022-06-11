@@ -29,6 +29,5 @@ public class Main {
 
         DateRepository dr = new DateRepository();
         dr.sortDates(ls).forEach(System.out::println);
-        System.out.println(dr.sortDates(ls).getClass());
     }
 }
