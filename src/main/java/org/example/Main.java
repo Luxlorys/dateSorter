@@ -18,9 +18,14 @@ public class Main {
         List<LocalDate> ls = List.of(
                 LocalDate.of(2005, 6, 21), // June
                 LocalDate.of(2005, 7, 26), // July
-                LocalDate.of(2005, 1, 14)
+                LocalDate.of(2005, 1, 14),
+                LocalDate.of(2005, 9, 21),
+                LocalDate.of(2002, 9, 20),
+                LocalDate.of(2007, 3, 15)
         );
 
-        System.out.println("Size: " + ds.sortDates(ls).size()); // output: 2
+//        ls.stream().forEach(System.out::println);
+        DateRepository dr = new DateRepository();
+        dr.sortDates(ls).forEach(System.out::println);
     }
 }
