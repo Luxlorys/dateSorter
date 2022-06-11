@@ -1,9 +1,6 @@
 package org.example;
 
-import java.text.CollationElementIterator;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class Main {
